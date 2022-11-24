@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0802518-88c1-415e-b887-620e8659061a" name="Changes" comment="My Try to do HomeWork">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/o/example/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/o/example/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/JDBC.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/JDBC.jsp" afterDir="false" />
+    <list default="true" id="f0802518-88c1-415e-b887-620e8659061a" name="Changes" comment="Finaly did it">
+      <change afterPath="$PROJECT_DIR$/src/main/java/o/example/MainAdvice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +25,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -177,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668704722707</updated>
       <workItem from="1668704725795" duration="5266000" />
-      <workItem from="1669133109786" duration="15657000" />
+      <workItem from="1669133109786" duration="16319000" />
     </task>
     <task id="LOCAL-00001" summary="My Try to do HomeWork">
       <created>1669292091315</created>
@@ -200,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669295475313</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finaly did it">
+      <created>1669306302885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669306302885</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +229,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My Try to do HomeWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="My Try to do HomeWork" />
+    <MESSAGE value="Finaly did it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finaly did it" />
   </component>
 </project>
