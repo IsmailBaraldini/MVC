@@ -24,13 +24,11 @@ public class HelloController {
         System.out.println("Hello " + userName);
         return "hello";
     }
-@RequestMapping("/JDBC")
-public class JDBC {
     @GetMapping("/JDBC")
     public String Students(ModelMap model) throws SQLException {
-        final String URL = "jdbc:mysql://localhost:3306/JDBC/JDBC";
+        final String URL = "jdbc:mysql://localhost:3306/database";
         final String user = "root";
-        final String pass = "Ismaillox3920561";
+        final String pass = "root";
 
         Connection connection;
         PreparedStatement preparedStatement = null;
@@ -39,6 +37,8 @@ public class JDBC {
         Driver driver = new com.mysql.cj.jdbc.Driver();
         DriverManager.registerDriver(driver);
         connection = DriverManager.getConnection(URL, user, pass);
+        if (!connection.isClosed())
+            System.out.println("Good connect");
         preparedStatement = connection.prepareStatement("select * from student");
         resultSet = preparedStatement.executeQuery();
 
@@ -51,7 +51,6 @@ public class JDBC {
     }
 }
 
-
 //    @ExceptionHandler(SQLException.class)
 //    public ModelAndView resolveException(HttpServletRequest request, Exception ex) {
 //        ModelAndView modelAndView = new ModelAndView();
@@ -60,4 +59,3 @@ public class JDBC {
 //        modelAndView.setViewName("error");
 //        return modelAndView;
 //    }
-}

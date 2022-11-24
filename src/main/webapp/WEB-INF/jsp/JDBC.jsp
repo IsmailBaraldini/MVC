@@ -1,19 +1,14 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: user
-  Date: 24.11.2022
-  Time: 14:46
-  To change this template use File | Settings | File Templates.
---%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>JDBC</title>
-    <c:forEach var="user" items="${names}">
-        <p>${user}</p>
-    </c:forEach>
+
 </head>
 <body>
+<c:forEach var="user" items="${students}">
+    <p>${user}</p>
+</c:forEach>
     All good
 </body>
 </html>
