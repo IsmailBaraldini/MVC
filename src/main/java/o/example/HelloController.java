@@ -28,7 +28,7 @@ public class HelloController {
     public String Students(ModelMap model) throws SQLException {
         final String URL = "jdbc:mysql://localhost:3306/database";
         final String user = "root";
-        final String pass = "root";
+        final String pass = "Ismaillox3920561";
 
         Connection connection;
         PreparedStatement preparedStatement = null;
@@ -44,7 +44,7 @@ public class HelloController {
 
         List<String> students = new ArrayList<>();
         while (resultSet.next()) {
-            students.add(resultSet.getString("name"));
+            students.add(resultSet.getString("Name"));
         }
         model.put("names", students);
         return "JDBC";

@@ -6,8 +6,8 @@
 
 </head>
 <body>
-<c:forEach var="user" items="${students}">
-    <p>${user}</p>
+<c:forEach var="Name" items="${names}">
+    <p>${Name}</p>
 </c:forEach>
     All good
 </body>
